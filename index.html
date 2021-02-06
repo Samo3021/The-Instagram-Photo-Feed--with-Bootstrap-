@@ -36,14 +36,36 @@
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
                             <a class="nav-link" href="#">
-                                <a class="btn btn-success">Create a new post</a>
-                                
+                                <button type="button" class="btn btn-success" data-toggle="modal"
+                                    data-target="#myModal">Create a new post</button>
+                                <div id="myModal" class="modal fade" role="dialog">
+                                    <div class="modal-dialog">
+
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-body">
+                                                <textarea class="form-control" id="complexExampleMessage" rows="3"></textarea>
+                                                <button type="button" class="btn btn-light"><i class="fas fa-camera-retro"></i></button>
+                                                <button type="button" class="btn btn-light"><i class="fas fa-map-marker-alt"></i></button>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-light">Cancel</button>
+                                                <button type="button" class="btn btn-success">Publish</button>
+                                                
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
                             </a>
-                            
+
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding: 10px;">
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                style="padding: 10px;">
 
                                 <i class="fas fa-cog"></i>
                             </a>
@@ -61,7 +83,7 @@
     </header>
     <!-- arriba esta el navbar -->
     <!-- aqui abajo va el pill -->
-    <div class="container-fluid" >
+    <div class="container-fluid">
         <div class="d-flex justify-content-center">
             <ul class="nav nav-tabs" id="myTab" role="tablist">
                 <li class="nav-item">
@@ -81,190 +103,231 @@
                     <!-- los de arriba -->
                     <img src="https://c.files.bbci.co.uk/48DD/production/_107435681_perro1.jpg" class="rounded"
                         alt="..." style="max-width: 450px; max-height: 450px; margin: 10px;">
-                    <img src="https://i.blogs.es/edeb0a/1366_2000-5-/840_560.jpeg" class="rounded-top"
-                        alt="..." style="max-width: 450px; max-height: 450px; margin: 10px;">
-                    <img src="https://tijuiliando.com/wp-content/uploads/2018/01/dodge-challenger-srt-demon_0.jpg" class="rounded-end"
-                        alt="..." style="max-width: 450px; max-height: 450px; margin: 10px;">
+                    <img src="https://i.blogs.es/edeb0a/1366_2000-5-/840_560.jpeg" class="rounded-top" alt="..."
+                        style="max-width: 450px; max-height: 450px; margin: 10px;">
+                    <img src="https://tijuiliando.com/wp-content/uploads/2018/01/dodge-challenger-srt-demon_0.jpg"
+                        class="rounded-end" alt="..." style="max-width: 450px; max-height: 450px; margin: 10px;">
                 </div>
                 <!-- los de en medio -->
                 <div class="d-flex justify-content-center">
-                    <img src="https://www.lacasadeel.net/wp-content/uploads/2012/10/Kamina-Simon-wallpaper.jpg" class="rounded"
-                        alt="..." style="max-width: 450px; max-height: 450px; padding-top: 10px; margin: 10px;">
-                    <img src="https://i1.wp.com/www.soyfrikki.com/wp-content/uploads/2018/11/ttgl3.jpg?fit=610%2C355" class="rounded-top"
-                        alt="..." style="max-width: 450px; max-height: 450px; padding-top: 10px; margin: 10px;">
-                    <img src="https://www.muycomputer.com/wp-content/uploads/2019/06/One-Punch-Man-A-Hero-Nobody-Knows.jpg" class="rounded-end"
-                        alt="..." style="max-width: 450px; max-height: 450px; padding-top: 10px; margin: 10px;">
+                    <img src="https://www.lacasadeel.net/wp-content/uploads/2012/10/Kamina-Simon-wallpaper.jpg"
+                        class="rounded" alt="..."
+                        style="max-width: 450px; max-height: 450px; padding-top: 10px; margin: 10px;">
+                    <img src="https://i1.wp.com/www.soyfrikki.com/wp-content/uploads/2018/11/ttgl3.jpg?fit=610%2C355"
+                        class="rounded-top" alt="..."
+                        style="max-width: 450px; max-height: 450px; padding-top: 10px; margin: 10px;">
+                    <img src="https://www.muycomputer.com/wp-content/uploads/2019/06/One-Punch-Man-A-Hero-Nobody-Knows.jpg"
+                        class="rounded-end" alt="..."
+                        style="max-width: 450px; max-height: 450px; padding-top: 10px; margin: 10px;">
                 </div>
                 <!-- los de abajo -->
-                <div class="d-flex justify-content-center" >
-                    <img src="https://astelus.com/wp-content/viajes/Lago-Moraine-Parque-Nacional-Banff-Alberta-Canada.jpg" class="rounded"
-                        alt="..." style="max-width: 450px; max-height: 450px; padding-top: 10px; margin: 10px;">
-                    <img src="https://mott.pe/noticias/wp-content/uploads/2019/03/los-50-paisajes-maravillosos-del-mundo-para-tomar-fotos-1280x720.jpg" class="rounded-top"
-                        alt="..." style="max-width: 450px; max-height: 450px; padding-top: 10px; margin: 10px;">
-                    <img src="https://t2.ev.ltmcdn.com/es/posts/8/3/1/fotos_de_paisajes_naturales_138_orig.jpg" class="rounded-end"
-                        alt="..." style="max-width: 450px; max-height: 450px; padding-top: 10px; margin: 10px;">
+                <div class="d-flex justify-content-center">
+                    <img src="https://astelus.com/wp-content/viajes/Lago-Moraine-Parque-Nacional-Banff-Alberta-Canada.jpg"
+                        class="rounded" alt="..."
+                        style="max-width: 450px; max-height: 450px; padding-top: 10px; margin: 10px;">
+                    <img src="https://mott.pe/noticias/wp-content/uploads/2019/03/los-50-paisajes-maravillosos-del-mundo-para-tomar-fotos-1280x720.jpg"
+                        class="rounded-top" alt="..."
+                        style="max-width: 450px; max-height: 450px; padding-top: 10px; margin: 10px;">
+                    <img src="https://t2.ev.ltmcdn.com/es/posts/8/3/1/fotos_de_paisajes_naturales_138_orig.jpg"
+                        class="rounded-end" alt="..."
+                        style="max-width: 450px; max-height: 450px; padding-top: 10px; margin: 10px;">
                 </div>
             </div>
 
-            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab" >
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                 <!-- las imagenes de arriba -->
                 <div class="d-flex justify-content-center" style="background: seagreen;">
-                        <div class="card" style="max-width: 500px; margin-top: 30px; max-width: 500px;">
-                            <div class="d-flex justify-content-between" > 
-                                <h2 style="font-size: 20px; padding: 10px; ">My First Photo</h2>
-                                <p style="float: right; padding-right: 10px; padding-top: 10px;"  class="text-muted" >12/14</p>
-                            </div>
-                            <img src="https://c.files.bbci.co.uk/48DD/production/_107435681_perro1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">23 likes</h5>
-                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> 
-                                <div class="d-flex justify-content-start muted">
-                                    <i style="font-size: 20px;" class="far fa-heart muted" ></i><p  class="text-muted" style="padding-left: 25px; margin-bottom: 5px;">Comments...</p>
-                                </div>
-                                
-                            </div>
+                    <div class="card" style="max-width: 500px; margin-top: 30px; max-width: 500px;">
+                        <div class="d-flex justify-content-between">
+                            <h2 style="font-size: 20px; padding: 10px; ">My First Photo</h2>
+                            <p style="float: right; padding-right: 10px; padding-top: 10px;" class="text-muted">12/14
+                            </p>
                         </div>
-                </div>
-                    <div class="d-flex justify-content-center" style="background: seagreen;">
-                        <div class="card" style="max-width: 500px; margin-top: 30px; max-width: 500px;">
-                            <div class="d-flex justify-content-between" > 
-                                <h2 style="font-size: 20px; padding: 10px; ">My Second Photo</h2>
-                                <p style="float: right; padding-right: 10px; padding-top: 10px;"  class="text-muted" >12/14</p>
+                        <img src="https://c.files.bbci.co.uk/48DD/production/_107435681_perro1.jpg" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">23 likes</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.</p>
+                            <div class="d-flex justify-content-start muted">
+                                <i style="font-size: 20px;" class="far fa-heart muted"></i>
+                                <p class="text-muted" style="padding-left: 25px; margin-bottom: 5px;">Comments...</p>
                             </div>
-                            <img src="https://i.blogs.es/edeb0a/1366_2000-5-/840_560.jpeg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">23 likes</h5>
-                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> 
-                                <div class="d-flex justify-content-start muted">
-                                    <i style="font-size: 20px;" class="far fa-heart muted" ></i><p  class="text-muted" style="padding-left: 25px; margin-bottom: 5px;">Comments...</p>
-                                </div>
-                                
-                            </div>
-                        </div>
-                </div>
-                    <div class="d-flex justify-content-center" style="background: seagreen;">
-                        <div class="card" style="max-width: 500px; margin-top: 30px; max-width: 500px;">
-                            <div class="d-flex justify-content-between" > 
-                                <h2 style="font-size: 20px; padding: 10px; ">My Third Photo</h2>
-                                <p style="float: right; padding-right: 10px; padding-top: 10px;"  class="text-muted" >12/14</p>
-                            </div>
-                            <img src="https://tijuiliando.com/wp-content/uploads/2018/01/dodge-challenger-srt-demon_0.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">23 likes</h5>
-                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> 
-                                <div class="d-flex justify-content-start muted">
-                                    <i style="font-size: 20px;" class="far fa-heart muted" ></i><p  class="text-muted" style="padding-left: 25px; margin-bottom: 5px;">Comments...</p>
-                                </div>
-                                
-                            </div>
-                        </div>
-                        <!-- las imagenes de enmedio -->
-                </div>
-                    <div class="d-flex justify-content-center" style="background: seagreen;">
-                        <div class="card" style="max-width: 500px; margin-top: 30px; max-width: 500px;">
-                            <div class="d-flex justify-content-between" > 
-                                <h2 style="font-size: 20px; padding: 10px; ">My Quarter Photo</h2>
-                                <p style="float: right; padding-right: 10px; padding-top: 10px;"  class="text-muted" >12/16</p>
-                            </div>
-                            <img src="https://www.lacasadeel.net/wp-content/uploads/2012/10/Kamina-Simon-wallpaper.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">23 likes</h5>
-                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> 
-                                <div class="d-flex justify-content-start muted">
-                                    <i style="font-size: 20px;" class="far fa-heart muted" ></i><p  class="text-muted" style="padding-left: 25px; margin-bottom: 5px;">Comments...</p>
-                                </div>
-                                
-                            </div>
-                        </div>
-                </div>
-                <div class="d-flex justify-content-center" style="background: seagreen;">
-                        <div class="card" style="max-width: 500px; margin-top: 30px; max-width: 500px;">
-                            <div class="d-flex justify-content-between" > 
-                                <h2 style="font-size: 20px; padding: 10px; ">My Fifth Photo</h2>
-                                <p style="float: right; padding-right: 10px; padding-top: 10px;"  class="text-muted" >12/16</p>
-                            </div>
-                            <img src="https://i1.wp.com/www.soyfrikki.com/wp-content/uploads/2018/11/ttgl3.jpg?fit=610%2C355" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">23 likes</h5>
-                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> 
-                                <div class="d-flex justify-content-start muted">
-                                    <i style="font-size: 20px;" class="far fa-heart muted" ></i><p  class="text-muted" style="padding-left: 25px; margin-bottom: 5px;">Comments...</p>
-                                </div>
-                                
-                            </div>
-                        </div>
-                </div>
-                <div class="d-flex justify-content-center" style="background: seagreen;">
-                        <div class="card" style="max-width: 500px; margin-top: 30px; max-width: 500px;">
-                            <div class="d-flex justify-content-between" > 
-                                <h2 style="font-size: 20px; padding: 10px; ">My Sixth Photo</h2>
-                                <p style="float: right; padding-right: 10px; padding-top: 10px;"  class="text-muted" >12/16</p>
-                            </div>
-                            <img src="https://www.muycomputer.com/wp-content/uploads/2019/06/One-Punch-Man-A-Hero-Nobody-Knows.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">23 likes</h5>
-                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> 
-                                <div class="d-flex justify-content-start muted">
-                                    <i style="font-size: 20px;" class="far fa-heart muted" ></i><p  class="text-muted" style="padding-left: 25px; margin-bottom: 5px;">Comments...</p>
-                                </div>
-                                
-                            </div>
-                        </div>
-                </div> 
-                         <!-- las de  abajo -->
-                   <div class="d-flex justify-content-center" style="background: seagreen;">
-                        <div class="card" style="max-width: 500px; margin-top: 30px; max-width: 500px;">
-                            <div class="d-flex justify-content-between" > 
-                                <h2 style="font-size: 20px; padding: 10px; ">My Seventh Photo</h2>
-                                <p style="float: right; padding-right: 10px; padding-top: 10px;"  class="text-muted" >12/16</p>
-                            </div>
-                            <img src="https://astelus.com/wp-content/viajes/Lago-Moraine-Parque-Nacional-Banff-Alberta-Canada.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">23 likes</h5>
-                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> 
-                                <div class="d-flex justify-content-start muted">
-                                    <i style="font-size: 20px;" class="far fa-heart muted" ></i><p  class="text-muted" style="padding-left: 25px; margin-bottom: 5px;">Comments...</p>
-                                </div>
-                                
-                            </div>
-                        </div>
-                </div>
-                <div class="d-flex justify-content-center" style="background: seagreen;">
-                        <div class="card" style="max-width: 500px; margin-top: 30px; max-width: 500px;">
-                            <div class="d-flex justify-content-between" > 
-                                <h2 style="font-size: 20px; padding: 10px; ">My Eighth Photo</h2>
-                                <p style="float: right; padding-right: 10px; padding-top: 10px;"  class="text-muted" >12/18</p>
-                            </div>
-                            <img src="https://mott.pe/noticias/wp-content/uploads/2019/03/los-50-paisajes-maravillosos-del-mundo-para-tomar-fotos-1280x720.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">23 likes</h5>
-                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> 
-                                <div class="d-flex justify-content-start muted">
-                                    <i style="font-size: 20px;" class="far fa-heart muted" ></i><p  class="text-muted" style="padding-left: 25px; margin-bottom: 5px;">Comments...</p>
-                                </div>
-                                
-                            </div>
-                        </div>
-                </div> 
-                <div class="d-flex justify-content-center" style="background: seagreen;">
-                        <div class="card" style="max-width: 500px; margin-top: 30px; max-width: 500px;">
-                            <div class="d-flex justify-content-between" > 
-                                <h2 style="font-size: 20px; padding: 10px; ">My Ninth Photo</h2>
-                                <p style="float: right; padding-right: 10px; padding-top: 10px;"  class="text-muted" >12/18</p>
-                            </div>
-                            <img src="https://t2.ev.ltmcdn.com/es/posts/8/3/1/fotos_de_paisajes_naturales_138_orig.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">23 likes</h5>
-                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> 
-                                <div class="d-flex justify-content-start muted">
-                                    <i style="font-size: 20px;" class="far fa-heart muted" ></i><p  class="text-muted" style="padding-left: 25px; margin-bottom: 5px;">Comments...</p>
-                                </div>
-                                
-                            </div>
-                        </div>
-                </div>     
 
-                
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center" style="background: seagreen;">
+                    <div class="card" style="max-width: 500px; margin-top: 30px; max-width: 500px;">
+                        <div class="d-flex justify-content-between">
+                            <h2 style="font-size: 20px; padding: 10px; ">My Second Photo</h2>
+                            <p style="float: right; padding-right: 10px; padding-top: 10px;" class="text-muted">12/14
+                            </p>
+                        </div>
+                        <img src="https://i.blogs.es/edeb0a/1366_2000-5-/840_560.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">23 likes</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.</p>
+                            <div class="d-flex justify-content-start muted">
+                                <i style="font-size: 20px;" class="far fa-heart muted"></i>
+                                <p class="text-muted" style="padding-left: 25px; margin-bottom: 5px;">Comments...</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center" style="background: seagreen;">
+                    <div class="card" style="max-width: 500px; margin-top: 30px; max-width: 500px;">
+                        <div class="d-flex justify-content-between">
+                            <h2 style="font-size: 20px; padding: 10px; ">My Third Photo</h2>
+                            <p style="float: right; padding-right: 10px; padding-top: 10px;" class="text-muted">12/14
+                            </p>
+                        </div>
+                        <img src="https://tijuiliando.com/wp-content/uploads/2018/01/dodge-challenger-srt-demon_0.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">23 likes</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.</p>
+                            <div class="d-flex justify-content-start muted">
+                                <i style="font-size: 20px;" class="far fa-heart muted"></i>
+                                <p class="text-muted" style="padding-left: 25px; margin-bottom: 5px;">Comments...</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- las imagenes de enmedio -->
+                </div>
+                <div class="d-flex justify-content-center" style="background: seagreen;">
+                    <div class="card" style="max-width: 500px; margin-top: 30px; max-width: 500px;">
+                        <div class="d-flex justify-content-between">
+                            <h2 style="font-size: 20px; padding: 10px; ">My Quarter Photo</h2>
+                            <p style="float: right; padding-right: 10px; padding-top: 10px;" class="text-muted">12/16
+                            </p>
+                        </div>
+                        <img src="https://www.lacasadeel.net/wp-content/uploads/2012/10/Kamina-Simon-wallpaper.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">23 likes</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.</p>
+                            <div class="d-flex justify-content-start muted">
+                                <i style="font-size: 20px;" class="far fa-heart muted"></i>
+                                <p class="text-muted" style="padding-left: 25px; margin-bottom: 5px;">Comments...</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center" style="background: seagreen;">
+                    <div class="card" style="max-width: 500px; margin-top: 30px; max-width: 500px;">
+                        <div class="d-flex justify-content-between">
+                            <h2 style="font-size: 20px; padding: 10px; ">My Fifth Photo</h2>
+                            <p style="float: right; padding-right: 10px; padding-top: 10px;" class="text-muted">12/16
+                            </p>
+                        </div>
+                        <img src="https://i1.wp.com/www.soyfrikki.com/wp-content/uploads/2018/11/ttgl3.jpg?fit=610%2C355"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">23 likes</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.</p>
+                            <div class="d-flex justify-content-start muted">
+                                <i style="font-size: 20px;" class="far fa-heart muted"></i>
+                                <p class="text-muted" style="padding-left: 25px; margin-bottom: 5px;">Comments...</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center" style="background: seagreen;">
+                    <div class="card" style="max-width: 500px; margin-top: 30px; max-width: 500px;">
+                        <div class="d-flex justify-content-between">
+                            <h2 style="font-size: 20px; padding: 10px; ">My Sixth Photo</h2>
+                            <p style="float: right; padding-right: 10px; padding-top: 10px;" class="text-muted">12/16
+                            </p>
+                        </div>
+                        <img src="https://www.muycomputer.com/wp-content/uploads/2019/06/One-Punch-Man-A-Hero-Nobody-Knows.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">23 likes</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.</p>
+                            <div class="d-flex justify-content-start muted">
+                                <i style="font-size: 20px;" class="far fa-heart muted"></i>
+                                <p class="text-muted" style="padding-left: 25px; margin-bottom: 5px;">Comments...</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- las de  abajo -->
+                <div class="d-flex justify-content-center" style="background: seagreen;">
+                    <div class="card" style="max-width: 500px; margin-top: 30px; max-width: 500px;">
+                        <div class="d-flex justify-content-between">
+                            <h2 style="font-size: 20px; padding: 10px; ">My Seventh Photo</h2>
+                            <p style="float: right; padding-right: 10px; padding-top: 10px;" class="text-muted">12/16
+                            </p>
+                        </div>
+                        <img src="https://astelus.com/wp-content/viajes/Lago-Moraine-Parque-Nacional-Banff-Alberta-Canada.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">23 likes</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.</p>
+                            <div class="d-flex justify-content-start muted">
+                                <i style="font-size: 20px;" class="far fa-heart muted"></i>
+                                <p class="text-muted" style="padding-left: 25px; margin-bottom: 5px;">Comments...</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center" style="background: seagreen;">
+                    <div class="card" style="max-width: 500px; margin-top: 30px; max-width: 500px;">
+                        <div class="d-flex justify-content-between">
+                            <h2 style="font-size: 20px; padding: 10px; ">My Eighth Photo</h2>
+                            <p style="float: right; padding-right: 10px; padding-top: 10px;" class="text-muted">12/18
+                            </p>
+                        </div>
+                        <img src="https://mott.pe/noticias/wp-content/uploads/2019/03/los-50-paisajes-maravillosos-del-mundo-para-tomar-fotos-1280x720.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">23 likes</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.</p>
+                            <div class="d-flex justify-content-start muted">
+                                <i style="font-size: 20px;" class="far fa-heart muted"></i>
+                                <p class="text-muted" style="padding-left: 25px; margin-bottom: 5px;">Comments...</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center" style="background: seagreen;">
+                    <div class="card" style="max-width: 500px; margin-top: 30px; max-width: 500px;">
+                        <div class="d-flex justify-content-between">
+                            <h2 style="font-size: 20px; padding: 10px; ">My Ninth Photo</h2>
+                            <p style="float: right; padding-right: 10px; padding-top: 10px;" class="text-muted">12/18
+                            </p>
+                        </div>
+                        <img src="https://t2.ev.ltmcdn.com/es/posts/8/3/1/fotos_de_paisajes_naturales_138_orig.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">23 likes</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.</p>
+                            <div class="d-flex justify-content-start muted">
+                                <i style="font-size: 20px;" class="far fa-heart muted"></i>
+                                <p class="text-muted" style="padding-left: 25px; margin-bottom: 5px;">Comments...</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
 
         </div>
